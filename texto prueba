@@ -4,7 +4,7 @@ tener una copia local en tu maquina
 agregar un archivo de txt con algun contenido
 hacer un commit con ese archivo nuevo y pushear a master (rama pricipal nombre por defecto)
 
-2 (editando el archivo txt para probar)
+2
 crear una rama secundaria
 eeditar el archivo txt
 commitear y pushear la rama
