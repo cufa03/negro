@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: fit-content;
+}
+
+.resultado {
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    min-width: 210px;
+    border: solid 2px rgba(0, 0, 0, 0.514);
+    background-color: rgba(207, 215, 223, 0.795);
+    height: 40px;
+    align-items: center;
+    padding: 0 5px;
+    justify-content: left;
+}
+
+.teclas {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 200px;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dont {
+    font: bold;
+}
+
+.operadores {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: span 2;
+}
+
+.operador {
+    background-color: orange;
+}
+
+.c {
+    height: 3.75em;
+    background-color: rgba(207, 215, 223, 0.795);
+}
+
+/*
+#btn-igual {
+    position: relative;
+}
+
+button {
+    margin: 0;
+    padding: 20px;
+}
+
+.teclas {
+    display: flex;
+    border: solid 1px red;
+}
+
+.c {}
+
+.teclas .numeros {
+    height: fit-content;
+    max-width: fit-content;
+}
+
+.numeros .c {
+    width: 12.15em;
+    background-color: rgb(211, 211, 211);
+}
+
+.numeros .punto {
+    width: 3.9em;
+    background-color: rgb(211, 211, 211);
+}
+
+.ultimo {
+    max-width: fit-content;
+}
+
+.teclas .operadores {
+    display: flex;
+    flex-direction: column;
+}
+
+.operador {
+    background: orange;
+    width: 4.5em;
+}
+*/
